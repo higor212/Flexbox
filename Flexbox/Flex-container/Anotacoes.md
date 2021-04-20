@@ -21,26 +21,24 @@ Com o display flex, todos os itens do container irão ir para lado a lado
  O objetivo é definir a direção dos flex itens. Por padrão o flexbox é **em linha (row)**, a mudança de row para **columns(colunas)** acontece quando se precisa implementar a responsividade em um site mobile, ou seja, irão ser quebrados em coluna.
 
 ## flex-direction: row ;
-Os itens irão ser exibidos em  linha. ( a b c)
+Os itens irão ser exibidos em  linha. **( a b c )**
 
 ## flex-direction: row-reverse;
-Os itens ainda serão exibidos em linha, porém irão ser virados ao contrário ( c b a)
+Os itens ainda serão exibidos em linha, porém irão ser virados ao contrário **( c b a )**
 
 ## flex-direction: column;
 Os itens são exibidos em colunas. 
-(
-a
-b
-c
-)
+
+- a
+- b
+- c
 
 ## flex-direction: column-reverse;
 Os itens são exibidos em colunas reversas.
-(
-c
-b
-a
-)
+
+- c
+- b
+- a
 
 # Flex Wrap 
 
@@ -107,6 +105,11 @@ Os itens do flex container alinhados ao centro
 
 ## align-items: baseline;
 Alinha os itens do flex container como uma linha de base, mesmo diferente o tamanho dos itens a linha de base da tipografia será o mesmo.
+
+## align-items: center & justify-content: center;
+Alinhar o item do container no centro verticalmente ou horizontalmente.
+
+# Align Content
 
 
 
