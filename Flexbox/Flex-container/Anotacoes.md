@@ -89,3 +89,28 @@ os ítens são distribuídos na linha com o mesmo espaçamento entre eles.
 
 ## justify-content: flex-space-evenly;
 Os itens são distribuídos de forma que o espaçamento entre dois itens ( e o espaçamento das bordas) seja igual.
+
+# Align Items
+O align-items alinha os itens de acordo com o eixo do container, o alinhamento será diferente quando o flex direction for row ou column.
+
+## align-items: stretch;
+Vai fazer com que os itens do container tenham o mesmo height de forma que preencham todo o container.
+
+## align-items: flex-start;
+Alinha todos os itens do flex container ao inicio do mesmo. ( diferenciado caso o flex-direction esteja como row ou column)
+
+## align-items: flex-end;
+Alinha todos os itens do flex container ao fim do mesmo. ( diferenciado caso o flex-direction esteja como row ou column)
+
+## align-items: center;
+Os itens do flex container alinhados ao centro
+
+## align-items: baseline;
+Alinha os itens do flex container como uma linha de base, mesmo diferente o tamanho dos itens a linha de base da tipografia será o mesmo.
+
+
+
+
+
+
+
